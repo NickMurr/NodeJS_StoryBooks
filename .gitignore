@@ -1,0 +1,4 @@
+node_modules
+.idea
+udemy-node-express-mongo
+package-lock.json
