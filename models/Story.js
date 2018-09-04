@@ -21,7 +21,7 @@ const StorySchema = new Schema({
     default: true,
   },
   comments: [{
-    commentbody: {
+    commentBody: {
       type: String,
       required: true,
     },
