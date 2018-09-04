@@ -99,7 +99,6 @@ router.put('/:id', (req, res) => {
       story.body = req.body.body;
       story.status = req.body.status;
       story.allowComments = allowComments;
-
       story.save()
         .then((story) => {
           res.redirect('/dashboard');
