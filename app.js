@@ -51,10 +51,10 @@ app.use(methodOverride('_method'));
 // HandleBards Middleware
 app.engine('handlebars', exphbs({
   helpers: {
-    truncate: truncate,
-    stripTags: stripTags,
-    formatDate: formatDate,
-    select: select,
+    truncate,
+    stripTags,
+    formatDate,
+    select,
   },
   defaultLayout: 'main',
 }));
