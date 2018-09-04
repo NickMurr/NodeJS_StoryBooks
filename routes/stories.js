@@ -106,6 +106,7 @@ router.put('/:id', (req, res) => {
     });
 });
 
+
 // Delete Story
 router.delete('/:id', (req, res) => {
   Story.remove({ _id: req.params.id })
